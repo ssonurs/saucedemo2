@@ -81,7 +81,7 @@ class Test_Odev2:
             data.append(productName)
         return data 
 
-    
+    # ürünlerin isimlerinin excel dosyalarındaki isimlerle uyuşması
     def test_namesAreEqual(self):
         
         excelFile = openpyxl.load_workbook(PRODUCTS_NAME_EXCEL)
